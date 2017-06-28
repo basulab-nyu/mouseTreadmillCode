@@ -3,7 +3,6 @@
 #include <TaskScheduler.h>
 
 const int dacChipSelectPin = 45; 
-
 const int lickSensor = 3; //lick sensor out port
 const int solenoidL = 4; //left lick solenoid
 const int resetPin = A4; //RFID reset pin
@@ -82,7 +81,6 @@ volatile float thresRFIDdist = 30;
 volatile long thresRFIDpos = 3000;
 //measured in centimeters
 const float lapLength = 200;
-
 
 int waterDispensed = 0; //counter for how many water droplets were dispensed
 
