@@ -160,12 +160,7 @@ void draw () {
 
 
 void controlEvent(ControlEvent theEvent) {
-  
   println(theEvent.getName());
- 
-  
-  
-  
-    myPort.write(cp5.get(Textfield.class, "microsecond delay").getText()+"\n");
+  myPort.write(cp5.get(Textfield.class, "microsecond delay").getText()+"\n");
     
 }
